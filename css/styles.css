@@ -1,0 +1,16 @@
+.bg1 {
+  background-color: #8abdf452;
+}
+
+.bg2 {
+  background-color: #f4bc8a52;
+}
+
+.row {
+  margin-bottom: 50px;
+}
+
+img {
+  width: 200px;
+  float: left;
+}
