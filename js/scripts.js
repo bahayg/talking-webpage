@@ -29,4 +29,10 @@ $(document).ready(function(){
       $(this).remove();
     });
   });
+  $("img#cat").click(function(){
+    $("ul#meow").prepend("<li>Meow</li>");
+  });
+  $("img#dog").click(function(){
+    $("ul#worf").prepend("<li>Worf</li>");
+  });
 });
