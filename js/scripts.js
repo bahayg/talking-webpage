@@ -1,11 +1,14 @@
 $(document).ready(function(){
   $("button#hello").click(function(){
-    $("ul").append("<li>Hello!</li>");
+    $("ul#user").append("<li>Hello!</li>");
+    $("ul#webpage").append("<li>Why hello there!!</li>");
   });
   $("button#goodbye").click(function(){
-    $("ul").append("<li>Goodbye!</li>");
+    $("ul#user").append("<li>Goodbye!</li>");
+    $("ul#webpage").append("<li>Goodbye, dear user!</li>");
   });
   $("button#stop").click(function(){
-    $("ul").append("<li>Stop copying me!</li>");
+    $("ul#user").append("<li>Stop copying me!</li>");
+    $("ul#webpage").append("<li>Pardon me. I meant no offense.</li>");
   });
 });
